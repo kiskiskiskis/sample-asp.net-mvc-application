@@ -2146,6 +2146,32 @@ progress {
   margin-bottom: 0.5rem;
 }
 
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
+
+    .form-row > .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+label {
+    margin-bottom: 0.5rem;
+}
+
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
   padding-bottom: calc(0.375rem + 1px);
